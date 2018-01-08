@@ -4,7 +4,7 @@
 
 	<groupId>com.baloise.testing.framework</groupId>
 	<artifactId>taf</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>master-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -13,6 +13,18 @@
 	<scm>
 		<connection>scm:git:https://github.com/baloise/test-automation-framework.git</connection>
 	</scm>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 
     <licenses>
         <license>
@@ -64,8 +76,4 @@
 		<module>taf-swing-client</module>
 		<module>taf-swing-server</module>
 	</modules>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 </project>
